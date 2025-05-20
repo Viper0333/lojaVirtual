@@ -30,13 +30,13 @@ header h1 {
 }
 
 header button {
-    background: white;
-    color: rgb(74, 114, 206);
-    padding: 10px 16px;
-    border: none;
-    border-radius: 6px;
-    margin-left: 8px;
     cursor: pointer;
+    border: none;
+    background-color: rgb(74, 114, 206);
+    font-size: large;
+    padding: 16px;
+    color: aliceblue;
+    
 }
 
 .sobre-loja {
@@ -140,4 +140,6 @@ header button {
     .imagem-loja img {
         max-width: 100%;
     }
+
+    
 }
