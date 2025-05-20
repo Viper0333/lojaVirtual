@@ -1,92 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Noticias</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap' rel='stylesheet'>
-    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EBAC Shoes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container header-container">
             <h1>EBAC Shoes</h1>
-            <form>
-                <button type="submit">Sobre a loja</button>
-                <button type="submit">Pesquisar</button>
-            </form>
+            <nav>
+                <button type="button">Sobre a loja</button>
+                <button type="button">Pesquisar</button>
+            </nav>
         </div>
-            <div class="clear"></div>
-        </nav>
     </header>
-    <div class="container conteudo">
-        <main>
-            <div class="sobre-loja">
-                <section>
-                    <article class="loja">
-                        <a href="#">
-                            <img src="imagem/lojas-de-roupas-instagram-header.jpg"/>
-                            
-                        </a>
-                    </article>
-                </section>
-                <section class="ultimas-noticia">
-                    <h2>Sobre a loja</h2>
-                    <h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laboriosam temporibus, assumenda asperiores ipsam incidunt eveniet debitis dolore deleniti recusandae tempora corporis autem? Provident eveniet eius molestias temporibus autem suscipit!
-                    </h3>
-                </section>
+
+    <main class="container">
+        <section class="sobre-loja">
+            <div class="imagem-loja">
+                <img src="imagem/lojas-de-roupas-instagram-header.jpg" alt="Loja EBAC" />
             </div>
-            <div class="container">
-                <section class="produtos" >
-                    <h2>Produtos</h2>
-                    <div class="destaque">
-                        <article class="disponivel">
-                            <a href="#">
-                                <img src="imagem/br-11134207-7r98o-m5fwf2vrfvzm9e_tn.webp"/>
-                                <h3>
-                                    Bonés Trucker Liso 3 Unidades
-                                </h3>
-                            </a>
-                            <h1>Confira os tamnhos para melhor vestir tamanhos 36, 38, 40</h1>
-                            <button>Adicionar ao carinho</button>
-                        </article>
-                        <article class="disponivel">
-                            <a href="#">
-                                <img src="imagem/bone_flumax-srr8xd6ab0.webp"/>
-                                <h3>
-                                    Bonés Trucker Liso
-                                </h3>
-                            </a>
-                            <h1>Confira os tamnhos para melhor vestir tamanhos 36, 38, 40</h1>
-                            <button>Adicionar ao carinho</button>
-                        </article>
-                        <article class="disponivel">
-                            <a href="#">
-                                <img src="imagem/br-11134211-7r98o-m79sbyweyvykff_tn.jpeg"/>
-                                <h3>
-                                    Boné Black Brasil
-                                </h3>
-                            </a>
-                            <h1>Confira os tamnhos para melhor vestir tamanhos 36, 38, 40</h1>
-                            <button>Adicionar ao carinho</button>
-                        </article>
-                        <article class="disponivel">
-                            <a href="#">
-                                <img src="imagem/br-11134207-7r98o-m0xpeigckim8b6_tn.webp"/>
-                                <h3>
-                                    Boné Blck
-                                </h3>
-                            </a>
-                            <h1>Confira os tamnhos para melhor vestir tamanhos 36, 38, 40</h1>
-                            <button>Adicionar ao carinho</button>
-                        </article>
-                    </div>
-                </section>
+            <div class="descricao-loja">
+                <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laboriosam temporibus, assumenda asperiores ipsam incidunt eveniet debitis dolore deleniti recusandae tempora corporis autem? Provident eveniet eius molestias temporibus autem suscipit!
+                </p>
             </div>
-        </main>
-    </div>
+        </section>
+
+        <section class="produtos">
+            <h2>Produtos</h2>
+            <div class="lista-produtos">
+                <article class="produto">
+                    <img src="imagem/br-11134207-7r98o-m5fwf2vrfvzm9e_tn.webp" alt="Bonés Trucker Liso 3 Unidades" />
+                    <h3>Bonés Trucker Liso 3 Unidades</h3>
+                    <p>Confira os tamanhos para melhor vestir: 36, 38, 40</p>
+                    <button>Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <img src="imagem/bone_flumax-srr8xd6ab0.webp" alt="Bonés Trucker Liso" />
+                    <h3>Bonés Trucker Liso</h3>
+                    <p>Confira os tamanhos para melhor vestir: 36, 38, 40</p>
+                    <button>Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <img src="imagem/br-11134211-7r98o-m79sbyweyvykff_tn.jpeg" alt="Boné Black Brasil" />
+                    <h3>Boné Black Brasil</h3>
+                    <p>Confira os tamanhos para melhor vestir: 36, 38, 40</p>
+                    <button>Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <img src="imagem/br-11134207-7r98o-m0xpeigckim8b6_tn.webp" alt="Boné Black" />
+                    <h3>Boné Black</h3>
+                    <p>Confira os tamanhos para melhor vestir: 36, 38, 40</p>
+                    <button>Adicionar ao carrinho</button>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
